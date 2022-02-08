@@ -17,7 +17,7 @@ public class Task7 {
             System.out.printf("|\t%4s\t|\t%4s\t|\n", "x", "y");
             System.out.println("---------------------------------");
             for (double x = a; x <= b; x = x + h) {
-                y = Math.sin(x)*Math.sin(x) - Math.cos(x);
+                y = Math.pow(Math.sin(x),2) - Math.cos(x);
                 System.out.printf("|\t%4.1f\t|\t%4.1f\t|\n", x, y);
             }
             System.out.println("---------------------------------");
