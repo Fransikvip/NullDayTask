@@ -16,7 +16,7 @@ public class Task7Dodelat {
             } else {
                 y = -i;
             }
-            System.out.println("y = " + y + " при x = " + i);
+
 
         }
 
