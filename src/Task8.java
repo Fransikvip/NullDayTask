@@ -1,11 +1,8 @@
 package Tasks;
 
-/*
-В массив A[N] занесены натуральные числа. Найти сумму тех элементов, которые кратны данному K.
- */
 public class Task8 {
     public static void main(String[] args) {
-        int[] a = {1, 3, 25, 1111, 14};
+        int[] a = {1, 3, 25, 2222, 5};
         int k = 5;
         int sum = 0;
         for (int i = 0; i < a.length; i++) {

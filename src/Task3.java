@@ -7,10 +7,10 @@ public class Task3
         Scanner scan = new Scanner(System.in);
         int a = scan.nextInt();
         int b = scan.nextInt();
-        solve(a,b);
+        result(a,b);
 
     }
-    public static void solve(int a,int b){
+    public static void result(int a,int b){
         System.out.println("Square "+ (a+b)*2);
         System.out.println("Per "+(Math.sqrt(Math.pow(a,2)+Math.pow(b,2))+a+b));
     }

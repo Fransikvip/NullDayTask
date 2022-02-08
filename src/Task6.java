@@ -14,7 +14,7 @@ public class Task6 {
         if (((a>b) && (b>c)) || ((c>b) &&(b>a)))
          sum=a+c;
     else
-        if (((a>c) || (c>b)) || ((b>c) && (c>a)))
+        if (((a>c) && (c>b)) || ((b>c) && (c>a)))
          sum =a+b;
     else
         if (((b>a) && (a>c)) || ((c>a) && (a>b)))

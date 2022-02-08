@@ -3,7 +3,7 @@ package Tasks;
 import java.util.Arrays;
 
 import java.util.Random;
-import java.util.Scanner;
+
 
 public class Task9 {
 
@@ -13,9 +13,9 @@ public class Task9 {
         int[] arr = new int[sizeFirst];
 
 
-        Random rn = new Random();
+        Random ran = new Random();
         for (int i = 0; i < sizeFirst; i++) {
-            arr[i] = rn.nextInt(40);
+            arr[i] = ran.nextInt(40);
         }
         System.out.println("Первый массив: " + Arrays.toString(arr));
         int sizeSecond = 14;
@@ -24,7 +24,7 @@ public class Task9 {
 
 
         for (int i = 0; i < sizeSecond; i++) {
-            secondArr[i] = rn.nextInt(40);
+            secondArr[i] = ran.nextInt(40);
         }
         System.out.println("Второй массив: " + Arrays.toString(secondArr));
 
