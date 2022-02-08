@@ -17,6 +17,8 @@ public class Task7Dodelat {
                 y = -i;
             }
             System.out.println("y = " + y + " при x = " + i);
+
         }
+        System.out.println("dsdsd");
     }
 }
