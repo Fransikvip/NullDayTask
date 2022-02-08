@@ -8,6 +8,7 @@ public class Task1 {
 
     public static void main(String[] args) {
 
+    one();
 
     }
     public static void zero(int chislo){
